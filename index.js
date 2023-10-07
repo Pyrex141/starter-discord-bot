@@ -9,7 +9,7 @@ const nicknamesFile = "./nicknames.json"; // Ajout du fichier de surnoms
 // Configuration
 const config = {
     discordToken: process.env.TOKEN , // token Discord
-    apiKey: "wr-MbekeRlC1azpUOiU2bqme2", // clé d'API OpenAI
+    apiKey: process.env.API_KEY, // clé d'API OpenAI
     memorySize: 10,
   };
 
